@@ -1,0 +1,65 @@
+
+.main_container {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    max-width: 1190px;
+}
+
+.auto_head {
+    font-size: 16px;
+    display: flex;
+    padding-left: 250px;
+}
+
+.car_name{
+    width: 31%;
+    padding: 6px 10px;
+    padding-left: 45px;
+}
+
+.brand_name {
+    width: 24%;
+    padding: 4px 15px;
+}
+
+.user_name {
+    width: 24%;
+    padding: 4px 15px;
+}
+
+.car {
+    display: flex;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.car__image {
+    width: 225px;
+    position: relative;
+    align-self: flex-start;
+}
+
+.car__name {
+    width: 24%;
+    padding-left: 50px;
+}
+
+.car__brand {
+    width: 20%;
+    padding-left: 45px;
+}
+
+.car__user {
+    width: 25%;
+    padding-left: 60px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+

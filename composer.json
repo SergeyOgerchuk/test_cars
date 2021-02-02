@@ -1,0 +1,23 @@
+{
+    "name": "test/cars",
+    "type": "project",
+    "authors": [
+        {
+            "name": "SergeyOgerchuk",
+            "email": "radeonxs@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "5.0.0-beta1"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers/AdminCarController.php",
+            "app/controllers/CarListController.php",
+            "app/models/cars.php",
+            "app/models/brands.php",
+            "app/models/users.php",
+            "app/models/db.php"
+        ]
+    }
+}
